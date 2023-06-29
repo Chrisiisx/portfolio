@@ -7,7 +7,7 @@ function App() {
   return (
     <Router >
       <Routes>
-
+        <LandingPage />
         {/*Landing Page*/}
         <Route exact path='/'
           element={<LandingPage />}
