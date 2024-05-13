@@ -52,11 +52,6 @@ function LandingPage() {
           <p className="text-center text-paragraphBase text-lg">
             Let's work together to bring your ideas to life!
           </p>
-          <div className="flex justify-center mt-8"> {/* Added mt-8 for spacing */}
-            <button className="bg-cyanBase hover:opacity-60 text-darkBase font-bold py-4 px-8 rounded-full transition duration-300 ease-in-out">
-              More About Me
-            </button>
-          </div>
         </div>
       </section>
 
