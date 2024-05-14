@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from "./pages/LandingPage";
 import Who from "./pages/Who";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
@@ -10,6 +11,11 @@ function App() {
         {/*Landing Page*/}
         <Route exact path='/'
           element={<LandingPage />}
+        />
+
+        {/*Portfolio Page*/}
+        <Route exact path='/portfolio'
+          element={<Portfolio />}
         />
 
         {/*whoami Page*/}

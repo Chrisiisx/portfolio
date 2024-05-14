@@ -8,7 +8,8 @@ module.exports = {
       current: 'currentColor',
 
       'darkBase': "#1e293b",
-      'purepleBase': '#6366F1',
+      'footerColor': "#121924",
+      'purpleBase': '#6366F1',
       'whiteBase': '#FFFFFF',
       'cyanBase': '#7DD3FC',
       'pinkBase': '#F472B6',
