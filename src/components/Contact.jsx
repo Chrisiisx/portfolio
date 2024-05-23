@@ -7,7 +7,7 @@ const Contact = () => {
     const [message, setMessage] = useState('');
 
     const handleClick = () => {
-        const content = `${"Oggetto: " + subject} \n Email: ${email} \n "Messaggio: " ${message}}`;
+        const content = `Oggetto: ${subject} \n Email: ${email} \n\n Messaggio: ${message}`;
         sendMessageToDiscord(email, content);
         // Pulisci il modulo dopo l'invio
         setEmail('');
